@@ -13,6 +13,7 @@ city = ''
 month = ''
 day=''
 
+#This function helps to filter data 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -73,7 +74,7 @@ def get_filters():
 
     return city, month, day
 
-
+#This function returns  the data for city month and day
 def load_data(city, month, day):
     #Loading data based on selections
     if city in CITY_DATA:
@@ -116,7 +117,7 @@ def load_data(city, month, day):
     """
 
 
-
+#This function processes the time columns
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -186,7 +187,7 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#This function pulls user data
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
