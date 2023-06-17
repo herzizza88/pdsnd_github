@@ -7,11 +7,12 @@
 Bikeshare data
 
 ### Description
-The project is a data analysis project using python
+The project is a data analysis project using python. It processes and provides information based on user input across 3 cities: Washington, New York City and Chicago.
 
 ### Files used
 bikeshare_2.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity Notes
 
