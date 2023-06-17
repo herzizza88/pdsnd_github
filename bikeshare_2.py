@@ -5,12 +5,14 @@ from datetime import datetime
 import statistics
 from statistics import mode
 
+#Creating a dictionary of the data files
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 city = ''
 month = ''
 day=''
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
